@@ -1,0 +1,425 @@
+Activity 1:
+
+XML 1:
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cse2"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Your Knowledge"
+            android:layout_marginBottom="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/yellow"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1.Who is the founder of ORACLE? "
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"
+            />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:textColor="@color/white"
+                android:id="@+id/rb1">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Lamb"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:id="@+id/rb11"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Ellison"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/rb12"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" James"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:id="@+id/rb13"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Karter"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:id="@+id/rb14"/>
+            </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+            android:text=" 2. What does HP stand for?"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/rb2"
+        android:layout_gravity="fill">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Henry Packard"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/rb21"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Hewlett Packard"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/rb22"/>
+
+            <RadioButton
+                android:id="@+id/rb23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Henry Packer"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Helson Packson"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:id="@+id/rb24"/>
+        </RadioGroup>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+        android:text=" 3. What does IBM stand for?"
+            android:textStyle="bold"
+        android:textSize="20dp"
+        />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/rb3"
+            android:layout_gravity="fill">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" International Business Machines"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:id="@+id/rb31"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" International Bureau of Machines"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:id="@+id/rb32"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Integrated Business Model"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:id="@+id/rb33"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Industry Business Model"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:id="@+id/rb34"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 4. Who invented mouse? "
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb4"
+            android:layout_marginBottom="40dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Martin Cooper"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:id="@+id/rb41"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Douglas Engelbart"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/rb42"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Christopher Sholes"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/rb43"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Bill Gates"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/rb44"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+            android:text=" 5. What does J2EE stand for?"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:id="@+id/rb5"
+            android:layout_gravity="fill">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=" Java 2 Enterprise Edition"
+                android:textSize="20dp"
+                android:id="@+id/rb351"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=" Java 2 Eight Edition"
+                android:textSize="20dp"
+                android:id="@+id/rb52"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text=" Java 2 Eclispse Edition"
+                android:textSize="20dp"
+                android:id="@+id/rb53"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=" Java 2 Entertainment Edition"
+                android:textSize="20dp"
+                android:id="@+id/rb54"/>
+        </RadioGroup>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/purple_700"
+            android:layout_marginTop="30dp"
+            android:text="submit"
+            android:onClick="submit"/>
+    </LinearLayout>
+</ScrollView>
+
+
+JAVA 1:
+
+package com.example.quiz;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+
+public class MainActivity extends AppCompatActivity {
+    RadioGroup r1,r2,r3,r4,r5;
+    RadioButton rb1;
+    RadioButton rb2;
+    RadioButton rb3;
+    RadioButton rb4;
+    RadioButton rb5;
+    @SuppressLint("MissingInflatedId")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        r1=findViewById(R.id.rb1);
+        r2=findViewById(R.id.rb2);
+        r3=findViewById(R.id.rb3);
+        r4=findViewById(R.id.rb4);
+        r5=findViewById(R.id.rb5);
+        r1.clearCheck();
+        r2.clearCheck();
+        r3.clearCheck();
+        r4.clearCheck();
+        r5.clearCheck();
+    }
+
+    public void submit(View view) {
+        int count=0;
+        rb1=findViewById(r1.getCheckedRadioButtonId());
+        rb2=findViewById(r2.getCheckedRadioButtonId());
+        rb3=findViewById(r3.getCheckedRadioButtonId());
+        rb4=findViewById(r4.getCheckedRadioButtonId());
+        rb5=findViewById(r5.getCheckedRadioButtonId());
+        try {
+            if (rb1.getText().toString().equals(" Ellison"))
+                count++;
+            if (rb2.getText().toString().equals(" Hewlett Packard"))
+                count++;
+            if (rb3.getText().toString().equals(" International Business Machines"))
+                count++;
+            if (rb4.getText().toString().equals(" Douglas Engelbart"))
+                count++;
+            if (rb5.getText().toString().equals(" Java 2 Enterprise Edition"))
+                count++;
+        }
+        catch (Exception e)
+        {
+
+        }
+        Intent i=new Intent(this,TotalScore.class);
+        i.putExtra("score",String.valueOf(count));
+        startActivity(i);
+    }
+}
+
+
+Activity 2:
+
+
+XML 2 :
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/n"
+    tools:context=".TotalScore">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:src="?attr/homeAsUpIndicator"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score Card"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:id="@+id/tv"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="Your Total Score : "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/purple_700"
+        android:id="@+id/tv1"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/rb"
+        android:progressTint="#FFCC01"
+        tools:ignore="InvalidId" />
+
+
+</LinearLayout>
+
+
+JAVA 2:
+
+
+package com.example.quiz;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ProgressBar;
+import android.widget.RatingBar;
+import android.widget.TextView;
+
+public class TotalScore extends AppCompatActivity {
+    ProgressBar pb;
+    TextView tv;
+    RatingBar rb;
+    @SuppressLint("MissingInflatedId")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_total_score);
+        tv=findViewById(R.id.tv1);
+        rb=findViewById(R.id.rb);
+        Intent i=getIntent();
+        String score=i.getStringExtra("score").toString();
+        tv.setText(score);
+        rb.setRating(Float.parseFloat(score));
+
+    }
+
+    public void back(View view) {
+        Intent i=new Intent(this,MainActivity.class);
+        startActivity(i);
+
+    }
+}
